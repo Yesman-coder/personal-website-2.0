@@ -1,6 +1,5 @@
 import React from "react";
 import HeroImage from "../assets/hero-image.jpg";
-import Typical from "react-typical";
 
 function Hero() {
   return (
@@ -29,20 +28,7 @@ function Hero() {
                 I'm Yesman Utrera
               </h1>
               <h5 className=" text-white text-2xl mb-4">
-                <Typical
-                  loop={Infinity}
-                  wrapper="b"
-                  steps={[
-                    "Front-End Developer",
-                    1000,
-                    "UX Designer",
-                    1000,
-                    "Project Manager",
-                    1000,
-                    "Journalist",
-                    1000,
-                  ]}
-                />
+                UX Designer / Front end developer
               </h5>
               {/* <p className="mt-4 text-lg text-gray-300">
                 A Professional Problem Solver based in Caracas-Venezuela. With 4
