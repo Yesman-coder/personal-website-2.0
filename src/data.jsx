@@ -5,6 +5,14 @@ import LudotopyIdeation from "./assets/ludotopy-img/ludotopy-ideation.jpg";
 import LudotopyDesign from "./assets/ludotopy-img/ludotopy-design.jpg";
 import LudotopyFont from "./assets/ludotopy-img/ludotopy-fonts-color.jpg";
 import LudotopyFlow from "./assets/ludotopy-img/ludotopy-flow.png";
+import VhealthCompetition from "./assets/vhealth-img/vhealth-competition.png";
+import VhealthDashboard from "./assets/vhealth-img/vhealth-dashboard.png";
+import VhealthFlow from "./assets/vhealth-img/vhealth-flow.jpg";
+import VhealthMock from "./assets/vhealth-img/vhealth-mock.png";
+import VhealthMock1 from "./assets/vhealth-img/vhealth-mock1.png";
+import VhealthPersona from "./assets/vhealth-img/vhealth-persona.jpg";
+import VhealthSurveys from "./assets/vhealth-img/vhealth-surveys.jpg";
+import VhealthTest from "./assets/vhealth-img/vhealth-test.png";
 
 const projects = [
   {
@@ -23,11 +31,19 @@ const projects = [
   },
   {
     id: 2,
-    name: "anna johnson",
-    job: "web designer",
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
-    text: "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
+    name: "V-Health",
+    description:
+      "Webapp designed to provide healthcare institutions with all the tools they need to provide online consultation",
+    images: [
+      VhealthCompetition,
+      VhealthDashboard,
+      VhealthFlow,
+      VhealthMock,
+      VhealthMock1,
+      VhealthPersona,
+      VhealthSurveys,
+      VhealthTest,
+    ],
   },
   {
     id: 3,

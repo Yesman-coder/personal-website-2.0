@@ -15,8 +15,8 @@ function AboutMe() {
                 </div>
                 <h6 className="text-xl font-semibold">Journalist</h6>
                 <p className="mt-2 mb-4 text-gray-600">
-                  Graduated from the prestigious UCAB In Caracas Venezuela with
-                  12 years of experience
+                  Graduated from the prestigious UCAB In Caracas, Venezuela as a
+                  journalist +12 years of experience
                 </p>
               </div>
             </div>
@@ -107,9 +107,7 @@ function AboutMe() {
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-gray-600">
-                          Creative and proactive
-                        </h4>
+                        <h4 className="text-gray-600">Wildly Creative</h4>
                       </div>
                     </div>
                   </li>

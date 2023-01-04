@@ -32,7 +32,11 @@ export default function Footer() {
               business days.
             </h5>
             <div className="mt-6">
-              <a href="https://twitter.com/Yesmanutrera">
+              <a
+                href="https://twitter.com/Yesmanutrera"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button
                   className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
@@ -40,24 +44,42 @@ export default function Footer() {
                   <i className="flex fab fa-twitter"></i>
                 </button>
               </a>
-              <button
-                className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
+              <a
+                href="https://www.facebook.com/Yesman9000"
+                target="_blank"
+                rel="noreferrer"
               >
-                <i className="flex fab fa-facebook-square"></i>
-              </button>
-              <button
-                className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
+                <button
+                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                >
+                  <i className="flex fab fa-facebook-square"></i>
+                </button>
+              </a>
+              <a
+                href="https://github.com/Yesman-coder"
+                target="_blank"
+                rel="noreferrer"
               >
-                <i className="flex fab fa-dribbble"></i>
-              </button>
-              <button
-                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
+                <button
+                  className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                >
+                  <i className="flex fab fa-github"></i>
+                </button>
+              </a>
+              <a
+                href="https://github.com/Yesman-coder"
+                target="_blank"
+                rel="noreferrer"
               >
-                <i className="flex fab fa-github"></i>
-              </button>
+                <button
+                  className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                >
+                  <i className="flex fab fa-behance"></i>
+                </button>
+              </a>
             </div>
           </div>
         </div>

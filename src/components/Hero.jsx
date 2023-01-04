@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/hero-image.jpg";
+import Typical from "react-typical";
 
 function Hero() {
   return (
@@ -24,14 +25,29 @@ function Hero() {
         <div className="items-center flex flex-wrap">
           <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div className="">
-              <h5 className="text-uppercase text-[#FF4D47] text-2xl mb-4 font-bold">
-                UX DESIGNER
+              <h1 className="text-uppercase text-white text-4xl mb-4 font-bold">
+                I'm Yesman Utrera
+              </h1>
+              <h5 className=" text-white text-2xl mb-4">
+                <Typical
+                  loop={Infinity}
+                  wrapper="b"
+                  steps={[
+                    "Front-End Developer",
+                    1000,
+                    "UX Designer",
+                    1000,
+                    "Project Manager",
+                    1000,
+                    "Journalist",
+                    1000,
+                  ]}
+                />
               </h5>
-              <h1>Yesman Utrera</h1>
-              <p className="mt-4 text-lg text-gray-300">
+              {/* <p className="mt-4 text-lg text-gray-300">
                 A Professional Problem Solver based in Caracas-Venezuela. With 4
                 years of experience in the IT world.
-              </p>
+              </p> */}
               <button className="bg-[#FF4D47] hover:bg-transparent hover:border hover:border-[#FF4D47] text-white font-bold py-2 px-4 rounded mt-6">
                 <a
                   href="./assets/yesman-utrera-cv.pdf"
