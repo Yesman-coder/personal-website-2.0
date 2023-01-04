@@ -28,7 +28,7 @@ function Hero() {
                 I'm Yesman Utrera
               </h1>
               <h5 className=" text-white text-2xl mb-4">
-                UX Designer / Front end developer
+                UX Designer/Front end developer
               </h5>
               {/* <p className="mt-4 text-lg text-gray-300">
                 A Professional Problem Solver based in Caracas-Venezuela. With 4
