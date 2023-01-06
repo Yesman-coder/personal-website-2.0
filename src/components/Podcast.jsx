@@ -57,7 +57,7 @@ function Podcast() {
             </p>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src={Project1} alt="podcast image" />
+            <img src={Project1} alt="podcast" />
           </div>
         </div>
       </section>
@@ -82,7 +82,6 @@ function Podcast() {
               </p>
               {/* <!-- List --> */}
               <ul
-                role="list"
                 className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"
               >
                 <h3>My Role</h3>
@@ -145,7 +144,7 @@ function Podcast() {
             <img
               className="hidden w-3/6 mb-4 rounded-lg lg:mb-0 lg:flex max-h-[625px]"
               src={PodcastMock1}
-              alt="podcast mock feature image"
+              alt="podcast mock feature"
             />
           </div>
         </div>
@@ -256,7 +255,6 @@ function Podcast() {
               </p>
               {/* <!-- List --> */}
               <ul
-                role="list"
                 className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"
               >
                 <li className="flex space-x-3">
@@ -339,7 +337,6 @@ function Podcast() {
               </p>
               {/* <!-- List --> */}
               <ul
-                role="list"
                 className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"
               >
                 <li className="flex space-x-3">

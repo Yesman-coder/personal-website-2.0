@@ -1,6 +1,5 @@
 import React from "react";
 import ProfilePic from "../assets/profile_pic.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function AboutMe() {
   return (

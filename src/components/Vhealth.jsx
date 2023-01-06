@@ -133,7 +133,7 @@ function Vhealth() {
             <img
               className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
               src={VhealthMock1}
-              alt="podcast mock feature image"
+              alt="podcast mock feature"
             />
           </div>
         </div>
@@ -285,10 +285,7 @@ function Vhealth() {
                 patient and reduce the steps to 3.
               </p>
               {/* <!-- List --> */}
-              <ul
-                role="list"
-                className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"
-              >
+              <ul className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
                 <li className="flex space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
@@ -373,10 +370,7 @@ function Vhealth() {
                 doctors we interview during the exploratory phase.
               </p>
               {/* <!-- List --> */}
-              <ul
-                role="list"
-                className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"
-              >
+              <ul className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
                 <li className="flex space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
