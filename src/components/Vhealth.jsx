@@ -62,7 +62,7 @@ function Vhealth() {
             </p>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src={Project1} alt="podcast image" />
+            <img src={Project1} alt="podcast" />
           </div>
         </div>
       </section>
@@ -87,10 +87,7 @@ function Vhealth() {
                 important product now under the name of V-health.
               </p>
               {/* <!-- List --> */}
-              <ul
-                role="list"
-                className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"
-              >
+              <ul className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
                 <h3>My Role</h3>
                 <li className="flex space-x-3">
                   {/* <!-- Icon --> */}
